@@ -17,11 +17,6 @@
 
 [강의노트 1 - 인터넷과 웹 환경](https://github.com/dknife/2023Web/raw/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%201.pdf)
 
-[강의노트 2 - 인터넷에서 사용하는 문서 만들어 보기 - HTML](https://github.com/dknife/2023Web/raw/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%202.pdf)
-
-
-
-
-
+[강의노트 2 - 인터넷에서 사용하는 문서 만들어 보기 - HTML](https://github.com/dknife/2023Web/raw/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%202.pdf))
 
 
