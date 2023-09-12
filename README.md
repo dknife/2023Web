@@ -24,4 +24,4 @@
 
 ##### 실습 01
 
-[01-01 간단한 웹 문서]
+[01-01 간단한 웹 문서](https://github.com/dknife/2023Web/blob/main/ExCodes/01_firstHTML.html)
