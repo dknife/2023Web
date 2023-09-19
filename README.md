@@ -41,4 +41,10 @@
 
 ##### 실습 02
 
-[02-01 웹호스팅 서비스 이용 예시](https://tuwebprogramming.000webhostapp.com/) 000webhost.com 사용 예
+[02-00 웹호스팅 서비스 이용 예시](https://tuwebprogramming.000webhostapp.com/) 000webhost.com 사용 예
+
+[02-01 실습](https://tuwebprogramming.000webhostapp.com/Lab02/01.html)
+
+[02-02 실습](https://tuwebprogramming.000webhostapp.com/Lab02/02.html)
+
+[02-03 실습](https://tuwebprogramming.000webhostapp.com/Lab02/03.html)
