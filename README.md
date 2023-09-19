@@ -32,3 +32,7 @@
 [01-03 br](https://github.com/dknife/2023Web/blob/main/ExCodes/01_03_H_P_BR_tags.html)
 
 [01-04 Link - A tag](https://github.com/dknife/2023Web/blob/main/ExCodes/01_04_Link_tags.html)
+
+##### 실습 02
+
+[02-01 웹호스팅 서비스 이용 예시](https://tuwebprogramming.000webhostapp.com/) 000webhost.com 사용 예
