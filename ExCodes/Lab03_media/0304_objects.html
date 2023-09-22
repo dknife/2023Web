@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Link와 멀티미디어</title>
+    </head>
+    <body>
+        <h1 align="center">이 문서는 링크와 멀티미디어를 다룹니다</h1>
+        <h3 align="right">작성자 - 강영민</h3>
+        <iframe src="./tu.jpg" width="300"></iframe><br>
+        <iframe src="./harrylouis.mp4" width="300" height="600"></iframe>
+
+        <canvas id="mySample" width="300" height="300"> </canvas>
+
+        <svg width="300" height="300">
+            <circle cx="150" cy="150" r="100" fill="green" />
+            <circle cx="15" cy="40" r="10" fill="red" />
+            <rect x="35" y="50" width="10" height="30" fill="brown"/>
+        </svg>
+
+      
+        <script type="text/javascript">
+               var canvas = document.getElementById("mySample"); 
+               var context = canvas.getContext("2d");  
+               context.rect(0,0,180,180);       
+               context.rect(10,10,140,140);
+               context.fillRect(20,20,110,40);        context.stroke();
+         </script> 
+       
+        <math>
+            <mrow>
+              <mi>y = </mi>
+              <mfrac>
+                  <mi>b</mi><mi>a</mi>
+              </mfrac>
+              <mo>+</mo><mn>1</mn>
+            </mrow>
+        <annotation>y=b/a+1</annotation>
+        </math>
+  
+
+
+    </body>
+</html>
