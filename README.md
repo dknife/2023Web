@@ -53,8 +53,8 @@
 
 ###### 멀티미디어자료
 
-[수업을 위한 자료 01 - 이미지](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/tu.jpg)
+[수업을 위한 자료 01 - 이미지](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/tu.jpg)
 
 [수업을 위한 자료 02 - 오디오](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/pianoloop.wav) 
 
-[수업을 위한 자료 03 - 비디오](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/harrylouis.mp4)
+[수업을 위한 자료 03 - 비디오](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/harrylouis.mp4)
