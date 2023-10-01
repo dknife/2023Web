@@ -72,4 +72,4 @@
 
 
 ### 과제 제출 공지
-[[과제 1||과제 1]]
+[과제 1](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_1)
