@@ -76,6 +76,8 @@
 
 [04-01 iframe 실습](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab04/0401_iframe.html)
 
+[04-02 하이퍼텍스트 연결을 프레임에 출력하기](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab04/0402_iframeAndLink.html)
+
 ### 과제 제출 공지
 [과제 1](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_1)
 
