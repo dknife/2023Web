@@ -92,9 +92,13 @@
 
 [05-01 CSS 시작](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab05/Lab0501_article.html)
 
-##### 실습 06
+##### 실습 05-1
 
 [05-01의 개선](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab05/Lab0501_article2_div.html)
+
+##### 실습 06
+
+[06-01 Semantic Tags](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab06/semanticTags.html)
 
 ### 과제 제출 공지
 [과제 1](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_1)
