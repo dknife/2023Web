@@ -21,7 +21,7 @@
 강의 노트 5의 실습 (고양이 사진)을 직접 만들어 보고, 그 결과를 수업시간에 가지고 온다.
 
 [정답 예시](https://github.com/dknife/2023Web/blob/main/ExCodes/assignment2/assignment2.html)
-[전체 내용 - 이미지 포함]()
+[전체 내용 - 이미지 포함](https://github.com/dknife/2023Web/raw/main/ExCodes/assignment2/assignment2.zip)
 
 ### 교재
 
