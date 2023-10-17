@@ -20,6 +20,9 @@
 
 강의 노트 5의 실습 (고양이 사진)을 직접 만들어 보고, 그 결과를 수업시간에 가지고 온다.
 
+[정답 예시](https://github.com/dknife/2023Web/blob/main/ExCodes/assignment2/assignment2.html)
+[전체 내용 - 이미지 포함]()
+
 ### 교재
 
 쉽게 배우는 HTML5 웹 프로그래밍 입문, 임순범, 박희민 지음. 생능출판사
