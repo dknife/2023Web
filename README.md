@@ -103,6 +103,10 @@
 * [CSS 파일](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab06/myStyle.css)
 
 ### 과제 제출 공지
+
 [과제 1](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_1)
+
+[과제 2](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_2)
+
 
 
