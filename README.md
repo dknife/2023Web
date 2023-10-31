@@ -122,7 +122,7 @@
 
 [Lab07-06 플로팅 박스](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/06_float.html)
 
-
+[Lab07-07 속성 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/07_transition_inclass.html)
 
 
 ### 과제 제출 공지
