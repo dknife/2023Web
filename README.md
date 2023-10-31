@@ -124,7 +124,7 @@
 
 [Lab07-07 속성 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/07_transition_inclass.html)
 
-[Lab07-08 점진적 속성 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/07_transition_inclass.html)
+[Lab07-08 점진적 속성 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_transition_slow.html)
 
 
 ### 과제 제출 공지
