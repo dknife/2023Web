@@ -110,6 +110,8 @@
 
 [CSS 활용 연습 모음](https://github.com/dknife/2023Web/raw/main/ExCodes/CSS_Apps.zip)
 
+[Lab07-01 박스 모델](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/01_CSS_Application.html)
+
 ### 과제 제출 공지
 
 [과제 1](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_1)
