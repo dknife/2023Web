@@ -126,6 +126,7 @@
 
 [Lab07-08 점진적 속성 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_transition_slow.html)
 
+[Lab07-09 미디어 쿼리](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_responsive.html)
 
 ### 과제 제출 공지
 
