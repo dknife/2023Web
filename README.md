@@ -138,6 +138,10 @@
 
 [과제 2](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_2)
 
+##### 실습 08 - Forms and Scripts
+
+[실습 08-01 폼](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/01_FormBasics.html)
+
 
 ### 중간고사 평가
 
