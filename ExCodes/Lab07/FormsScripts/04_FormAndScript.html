@@ -1,0 +1,33 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>1. JavaScript 테스트</h1>
+        <script>
+            <!--
+                document.write("혼자서 동작하는 자바 스크립트")
+            // -->
+        </script>
+
+        <h2>2. 입력을 활용하기</h2>
+        <form>
+            이름 : &nbsp; <input type="text" id="nameInput" name ="name">
+            <button type="button" id="processButton">입력을 처리하시오</button>
+        </form>
+        <div id="nameOutput">출력 위치</div>
+
+        <script>
+            <!--
+                document.getElementById('processButton').addEventListener('click', 
+                    function() {
+                        var inputName = document.getElementById('nameInput').value;
+                        var outputElement = document.getElementById("nameOutput");
+                        outputElement.innerHTML = "입력하신 이름은 " + inputName + "입니다."
+                    }
+                )
+                
+            //-->
+        </script>
+    </body>
+</html>
