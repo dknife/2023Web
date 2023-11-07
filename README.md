@@ -139,6 +139,8 @@
 
 [실습 08-02 폼에 다양한 입력 기능 추가](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/02_Form2nd.html)
 
+[실습 08-03 간단한 자바스크립트](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/03_JavaScript.html)
+
 
 
 ### 과제 제출 공지
