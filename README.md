@@ -139,4 +139,8 @@
 [과제 2](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_2)
 
 
+### 중간고사 평가
 
+중간고사 필답 (40점)
+
+중간고사 실기 (60점)
