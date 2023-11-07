@@ -135,7 +135,9 @@
 
 ##### 실습 08 - Forms and Scripts
 
-[실습 08-01 폼](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/01_FormBasics.html)
+[실습 08-01 폼 사용해 보기](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/01_FormBasics.html)
+
+[실습 08-02 폼에 다양한 입력 기능 추가](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/02_Form2nd.html)
 
 
 
