@@ -1,0 +1,50 @@
+<head> <style type="text/css">  
+div { background-color: aquamarine; 
+border-radius: 10px; margin-left:10%; margin-right: 50%; padding-left:10px} 
+</style>  </head>
+<body>
+<h1>JavaScript 연습</h1>
+
+<h2>1. 출력해 보기</h2>
+<script type="text/javascript">
+    <!--
+        document.write('Hello World! I am Young-Min Kang')
+    //-->
+</script>
+
+<h2>2. 입력을 활용하기</h2>
+<form>
+    이름 : &nbsp; <input type="text" id="nameInput" name ="name">
+    <button type="button" id="processButton">입력을 처리하시오</button>
+</form>
+
+<div id="outputName">출력 결과</div>
+
+<script>
+    document.getElementById('processButton').addEventListener('click', function() {
+        var inputName = document.getElementById('nameInput').value;
+        var outputNameElement = document.getElementById('outputName');
+        outputNameElement.innerHTML = "입력된 이름은 " + inputName + "입니다.";
+    });
+  </script>
+
+
+<h2>3. 변수의 연산</h2>
+<form>
+    1에서 <input type="text" id="finalNumber" name ="finalNumber"> 까지의 정수 모두 합하기
+    <button type="button" id="sumup">결과를 확인</button>
+</form>
+
+<div id="sumupResult">출력 결과</div>
+
+<script>
+    document.getElementById('sumup').addEventListener('click', function() {
+        var finalNumber = document.getElementById('finalNumber').value;
+        finalNumber = parseInt(finalNumber)
+        var outputSumupElement = document.getElementById('sumupResult');
+        var sumupResult = (finalNumber * (finalNumber + 1))/2
+        outputSumupElement.innerHTML = "합산 결과는 " + sumupResult + "입니다.";
+    });
+  </script>
+
+</body>
