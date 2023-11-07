@@ -143,4 +143,4 @@
 
 중간고사 필답 (40점)
 
-중간고사 실기 (60점)
+[중간고사 실기 (60점)](https://github.com/dknife/2023Web/wiki/MidTerm_WP2023_Prac)
