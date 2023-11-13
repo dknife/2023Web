@@ -81,6 +81,50 @@
 [이미지](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/tu.jpg)
 
 
+#### 실습 4 개체 삽입
+
+[Lab04-01 iframe 사용](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab04/0401_iframe.html)
+
+[Lab04-02 iframe과 link](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab04/0402_iframeAndLink.html)
+
+[Lab04-03 iframe과 embed](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab04/0403_frameAndEmbed.html)
+
+[고양이 동영상](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab04/harrylouis.mp4)
+
+
+#### 실습 5: CSS 기초
+
+[Lab05-01 CSS 기본](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab05/Lab0501_article.html)
+
+[Lab05-02 div 객체](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab05/Lab0501_article2_div.html)
+
+#### 실습 6: 시맨틱 태그와 CSS
+
+[Lab06-01 시맨틱 태그로 꾸민 HTML](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab06/semanticTags.html)
+
+[Lab06-02 시맨틱 태그에 대한 스타일 지정](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab06/myStyle.css)
+
+#### 실습 7: CSS 연습
+
+[Lab07-01 박스 모델 기본 1](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/01_CSS_Application.html)
+
+[Lab07-02 박스 모델 기본 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/02_CSS_Application.html)
+
+[Lab07-03 display](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/03_CSS_boxmodel_display.html)
+
+[Lab07-04 position](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/04_position.html)
+
+[Lab07-05 position 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/05_position2.html)
+
+[Lab07-06 float 객체](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/06_float.html)
+
+[Lab07-07 transition](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/07_transition_inclass.html)
+
+[Lab07-07b transition 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_transition_slow.html)
+
+[Lab07-08 반응형 웹 콘텐츠](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_responsive.html)
+
+
 
 
 
@@ -94,3 +138,4 @@
 ### 중간고사 평가
 
 [중간고사](https://github.com/dknife/2023Web/wiki/MidTerm_WP2023_Prac)
+
