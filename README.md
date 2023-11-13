@@ -64,17 +64,17 @@
 
 [Lab03-01 여러 링크](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0301_link.html)
 
-[Lab03-02 로컬 파일 링크](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0301_local.html
+[Lab03-02 로컬 파일 링크](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0301_local.html)
 
-[Lab03-03 앵커](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0302_anchor.html
+[Lab03-03 앵커](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0302_anchor.html)
 
-[Lab03-04 미더어 포함](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0303_media.html
+[Lab03-04 미더어 포함](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0303_media.html)
 
-[Lab03-05 객체 삽입](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0304_objects.html
+[Lab03-05 객체 삽입](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0304_objects.html)
 
 ##### 미디어 파일들
 
-[고양이 동영상] https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/harrylouis.mp4)
+[고양이 동영상](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/harrylouis.mp4)
 
 [음향](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/pianoloop.wav)
 
