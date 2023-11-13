@@ -42,7 +42,9 @@
 
 [강의노트 7 - CSS 활용](https://github.com/dknife/2023Web/blob/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%207_CSS.pdf)
 
-[강의노트 8- 다양한 입력폼과 JavaScript](https://github.com/dknife/2023Web/blob/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%209_JSBasics.pdf)
+[강의노트 8- 다양한 입력폼](https://github.com/dknife/2023Web/blob/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%208_forms.pdf)
+
+[강의노트 9- JavaScript](https://github.com/dknife/2023Web/blob/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%209_JSBasics.pdf)
 
 ### 과제 제출 공지
 
