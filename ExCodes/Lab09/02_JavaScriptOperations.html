@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>1. 변수와 연산</h2>
+        <form>
+            숫자 1:  <input type="text" id="num1" name ="num1" value="12"><br>
+            숫자 2:  <input type="text" id="num2" name ="num2" value="21">
+        </form>
+
+        <div id="result"></div>
+
+        <script>
+            num1 = parseFloat(document.getElementById('num1').value);
+            num2 = parseFloat(document.getElementById('num2').value);
+
+            resultArea = document.getElementById('result');
+            resultArea.innerHTML =    '가: ' +  (num1+num2) + '<br>'
+                                    + '감: ' +  (num1-num2) + '<br>'
+                                    + '승: ' +  (num1*num2) + '<br>'
+                                    + '제: ' +  (num1/num2) + '<br>';
+        </script> 
+    </body>
+</html>

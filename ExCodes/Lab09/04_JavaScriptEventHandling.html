@@ -1,0 +1,54 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+        function add(n1, n2) { 
+            return n1 + n2; 
+        }
+
+        function subtract(n1, n2) { 
+            return n1 - n2; 
+        }
+
+        function mult(n1, n2) { 
+            return n1 * n2; 
+        }
+
+        function divide(n1, n2) { 
+            return n1 / n2; 
+        }
+        </script>
+
+        <h2>1. 변수와 연산</h2>
+        <form>
+            숫자 1:  <input type="text" id="num1" name ="num1"><br>
+            숫자 2:  <input type="text" id="num2" name ="num2">
+            <button type="button" id="compute">사칙연산</button>
+        </form>
+
+        <div id="result"></div>
+
+        <script>
+            function operations() {
+                num1 = parseFloat(document.getElementById('num1').value);
+                num2 = parseFloat(document.getElementById('num2').value);
+                resultArea = document.getElementById('result')
+                resultArea.innerHTML = '가: ' +  add(num1,num2) + '<br>'
+                    + '감: ' +  subtract(num1,num2) + '<br>'
+                    + '승: ' +  mult(num1,num2) + '<br>'
+                    + '제: ' +  divide(num1,num2) + '<br>';                
+            }
+
+            document.getElementById('compute').addEventListener('click', operations);
+
+
+
+
+
+            resultArea = document.getElementById('result');
+            resultArea.innerHTML =  msg;
+        </script> 
+    </body>
+</html>

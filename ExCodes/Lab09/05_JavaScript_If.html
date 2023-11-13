@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>1. Confirm과 if 문</h2>
+        <form>
+            <button type="button" id="greetingBtn">인사하기 - Greetings</button>
+        </form>
+        <div id="greetingArea"></div>
+        <script>
+            function greeting () {
+                    answer = confirm('Do you want me to speak in English?');
+                    if (answer == true) {
+                        msg = 'Hello, every body! Welcome to JavaScript world!';
+
+                    }
+                    else {
+                        msg = '여러분 안녕! 자바스크립트의 세계로 온 것을 환영해!';
+                    }
+                    greetingArea = document.getElementById('greetingArea');
+                    greetingArea.innerHTML = msg;
+
+            }            
+            document.getElementById('greetingBtn').addEventListener('click', greeting);
+        </script> 
+
+    
+
+    </body>
+</html>

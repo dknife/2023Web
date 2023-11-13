@@ -1,0 +1,54 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+    <h1>JavaScript 연습</h1>
+    
+    <h2>1. Alert 연습</h2>
+    <form>
+        메시지를 입력하세요 : &nbsp; <input type="text" id="alertMsg" name ="alertMsg">
+        <button type="button" id="processAlert">Alert 메시지 띄우기</button>
+    </form>
+    <script>
+        document.getElementById('processAlert').addEventListener('click', 
+            function() {
+                alert( document.getElementById('alertMsg').value) ;
+            }
+        );
+    </script>
+
+    <h2>2. 웹페이지 출력</h2>
+    <form>
+        화면에 출력할 메시지 : &nbsp; <input type="text" id="writeMsg" name ="writeMsg">
+        <button type="button" id="writeBtn">화면에 출력하기</button>
+    </form>
+    <script>
+        document.getElementById('writeBtn').addEventListener('click', 
+            function() {
+                document.write( document.getElementById('writeMsg').value) ;
+            }
+        );
+    </script>     
+
+    <h2>3. 특정 영역에 출력하기</h2>
+    <form>
+        특정 영역에 표시할 메시지 : &nbsp; <input type="text" id="msgForSpecificArea" name ="writeMsg">
+        <button type="button" id="displayBtn">특정 영역에 출력하기</button>
+        <br>
+        특정 영역: <span id="specialArea"> msg </span> <-- 이곳에 출력하자
+    </form>
+    <script>
+        document.getElementById('displayBtn').addEventListener('click', 
+        
+            function() {
+                msg = document.getElementById('msgForSpecificArea').value;
+                messageArea = document.getElementById('specialArea');
+                messageArea.innerHTML = msg;
+            }
+        );
+    </script>     
+
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>1. 반복문 - for</h2>
+        <form>
+            <button type="button" id="greetingBtn">인사하기 - Greetings</button>
+        </form>
+        <div id="greetingArea"></div>
+        <script>
+            function greeting () {
+                    iteration = parseInt(prompt('몇 번이나 반복할까?'));
+                    msg = ''
+                    for(i=0; i<iteration; i++) {
+                        msg += 'Hello, every body! Welcome to JavaScript world!<br>';
+                    }
+                    greetingArea = document.getElementById('greetingArea');
+                    greetingArea.innerHTML = msg;
+
+            }            
+            document.getElementById('greetingBtn').addEventListener('click', greeting);
+        </script> 
+
+        <h2>2. 반복문 - while</h2>
+        <form>
+            <button type="button" id="oddNumbersBtn">홀수 생성</button>
+        </form>
+        <div id="oddNumbersPrint"></div>
+        <script>
+            function odds () {
+                    nOdds = parseInt(prompt('몇 개의 홀수가 필요해요?'));
+                    oddNum = 1;
+                    msg = '';
+                    while( nOdds > 0 ) {
+                        msg += oddNum +',';
+                        nOdds-- ;                 
+                        oddNum += 2;
+                    }
+                    oddNumbersArea = document.getElementById('oddNumbersPrint');
+                    oddNumbersArea.innerHTML = msg;
+
+            }            
+            document.getElementById('oddNumbersBtn').addEventListener('click', odds);
+        </script> 
+    </body>
+</html>

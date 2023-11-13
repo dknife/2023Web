@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Number Guessing Game</h1>
+    <p>Guess a number between 1 and 100000:</p>
+    <input type="number" id="userGuess" min="1" max="100000">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <p id="result"></p>
+
+    <script>
+        // Generate a random number between 1 and 100,000
+        const secretNumber = Math.floor(Math.random() * 100000) + 1;
+
+        // Function to check the user's guess
+        function checkGuess() {
+            // Get the user's guess from the input field
+            const userGuess = document.getElementById('userGuess').value;
+
+            // Check if the guess is correct
+            if (userGuess == secretNumber) {
+                document.getElementById('result').innerHTML = 'Congratulations! You guessed the correct number!';
+            } else if (userGuess > secretNumber) {
+                document.getElementById('result').innerHTML = 'Sorry, it\'s too big. Try again!';
+            }
+            else {
+                document.getElementById('result').innerHTML = 'Sorry, it\'s too small. Try again!';
+            }
+        }
+    </script>
+
+</body>
+</html>
