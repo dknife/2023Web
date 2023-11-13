@@ -125,7 +125,9 @@
 [Lab07-08 반응형 웹 콘텐츠](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_responsive.html)
 
 
+#### 실습 8: 입력 폼과 JavaScript
 
+[Lab08-01 입력 폼 기본](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/01_FormBasics.html)
 
 
 
