@@ -129,6 +129,12 @@
 
 [Lab08-01 입력 폼 기본](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/01_FormBasics.html)
 
+[Lab08-02 입력 폼 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/02_Form2nd.html)
+
+[Lab08-03 자바스크립트 시작](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/03_JavaScript.html)
+
+[Lab08-04 폼과 자바스크립트](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/04_FormAndScript.html)
+
 
 
 ### 과제 제출 공지
