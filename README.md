@@ -118,9 +118,9 @@
 
 [Lab07-06 float 객체](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/06_float.html)
 
-[Lab07-07 transition](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/07_transition_inclass.html)
+[Lab07-07 transition 스타일 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/07_transition_inclass.html)
 
-[Lab07-07b transition 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_transition_slow.html)
+[Lab07-07b transition 2 느린 전환](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_transition_slow.html)
 
 [Lab07-08 반응형 웹 콘텐츠](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07_CSSApps/08_responsive.html)
 
