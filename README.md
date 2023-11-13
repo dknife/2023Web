@@ -46,6 +46,44 @@
 
 [강의노트 9- JavaScript](https://github.com/dknife/2023Web/raw/main/LectureNotes/%EC%9B%B9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8%209_JSBasics.pdf)
 
+### 실습코드
+
+#### 실습 1 HTML
+ 
+[Lab01-01 첫 HTML](https://github.com/dknife/2023Web/blob/main/ExCodes/01_firstHTML.html)
+
+[Lab01-02 HTML 더 다루기](https://github.com/dknife/2023Web/blob/main/ExCodes/01_02_SecondHTML.html)
+
+#### 실습 2 태그
+
+[Lab02-01 다양한 태그](https://github.com/dknife/2023Web/blob/main/ExCodes/01_03_H_P_BR_tags.html)
+
+[Lab02-02 Link 태그](https://github.com/dknife/2023Web/blob/main/ExCodes/01_04_Link_tags.html)
+
+#### 실습 3 미디어
+
+[Lab03-01 여러 링크](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0301_link.html)
+
+[Lab03-02 로컬 파일 링크](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0301_local.html
+
+[Lab03-03 앵커](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0302_anchor.html
+
+[Lab03-04 미더어 포함](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0303_media.html
+
+[Lab03-05 객체 삽입](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab03_media/0304_objects.html
+
+##### 미디어 파일들
+
+[고양이 동영상] https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/harrylouis.mp4)
+
+[음향](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/pianoloop.wav)
+
+[이미지](https://github.com/dknife/2023Web/raw/main/ExCodes/Lab03_media/tu.jpg)
+
+
+
+
+
 
 ### 과제 제출 공지
 
