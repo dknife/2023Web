@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Paddle objects
+        const paddleWidth = 10;
+        const paddleHeight = 60;
+        const playerPaddle = { x: 10, y: canvas.height / 2 - paddleHeight / 2, width: paddleWidth, height: paddleHeight, color: '#00F' };
+        const computerPaddle = { x: canvas.width - 20, y: canvas.height / 2 - paddleHeight / 2, width: paddleWidth, height: paddleHeight, color: '#F00' };
+
+        // Ball object
+        const ball = { x: canvas.width / 2, y: canvas.height / 2, radius: 10, speedX: 2, speedY: 2, color: '#0F0' };
+
+        // User input handling
+        let upPressed = false;
+        let downPressed = false;
+
+        document.addEventListener('keydown', keyDownHandler);
+        document.addEventListener('keyup', keyUpHandler);
+
+        function keyDownHandler(e) {
+            if (e.key === 'ArrowUp') {
+                upPressed = true;
+            } else if (e.key === 'ArrowDown') {
+                downPressed = true;
+            }
+        }
+
+        function keyUpHandler(e) {
+            if (e.key === 'ArrowUp') {
+                upPressed = false;
+            } else if (e.key === 'ArrowDown') {
+                downPressed = false;
+            }
+        }
+
+        // Update function
+        function update() {
+            // Move paddles based on user input
+            if (upPressed && playerPaddle.y > 0) {
+                playerPaddle.y -= 5;
+            } else if (downPressed && playerPaddle.y < canvas.height - playerPaddle.height) {
+                playerPaddle.y += 5;
+            }
+
+            // Move computer paddle
+            if (ball.y < computerPaddle.y + computerPaddle.height / 2) {
+                computerPaddle.y -= 1;
+            } else {
+                computerPaddle.y += 1;
+            }
+
+            // Move the ball
+            ball.x += ball.speedX;
+            ball.y += ball.speedY;
+
+            // Check for collisions with walls
+            if (ball.y + ball.radius > canvas.height || ball.y - ball.radius < 0) {
+                ball.speedY = -ball.speedY;
+            }
+
+            // Check for collisions with paddles
+            if (
+                (ball.x - ball.radius < playerPaddle.x + playerPaddle.width && ball.y > playerPaddle.y && ball.y < playerPaddle.y + playerPaddle.height) ||
+                (ball.x + ball.radius > computerPaddle.x && ball.y > computerPaddle.y && ball.y < computerPaddle.y + computerPaddle.height)
+            ) {
+                ball.speedX = -ball.speedX;
+            }
+
+            // Check for scoring
+            if (ball.x - ball.radius < 0 || ball.x + ball.radius > canvas.width) {
+                // Reset the ball position
+                ball.x = canvas.width / 2;
+                ball.y = canvas.height / 2;
+            }
+        }
+
+        // Render function
+        function render() {
+            // Clear the canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Render paddles
+            ctx.fillStyle = playerPaddle.color;
+            ctx.fillRect(playerPaddle.x, playerPaddle.y, playerPaddle.width, playerPaddle.height);
+
+            ctx.fillStyle = computerPaddle.color;
+            ctx.fillRect(computerPaddle.x, computerPaddle.y, computerPaddle.width, computerPaddle.height);
+
+            // Render the ball
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+            ctx.fillStyle = ball.color;
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        // Game loop
+        function gameLoop() {
+            // Update the game logic
+            update();
+
+            // Render the game
+            render();
+
+            // Request the next frame
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Start the game loop
+        gameLoop();
+    </script>
+</body>
+</html>

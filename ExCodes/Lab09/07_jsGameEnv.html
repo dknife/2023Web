@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <script>
+        // Get the canvas element and its context
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Player object
+        const player = {
+            x: 50,
+            y: 50,
+            width: 20,
+            height: 20,
+            color: '#00F'
+        };
+
+        // Update function
+        function update() {
+            // Update game logic here
+
+            // Example: Move the player to the right
+            player.x += 2;
+
+            // Example: Wrap player around the screen
+            if (player.x > canvas.width) {
+                player.x = 0;
+            }
+        }
+
+        // Render function
+        function render() {
+            // Clear the canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Render the player
+            ctx.fillStyle = player.color;
+            ctx.fillRect(player.x, player.y, player.width, player.height);
+        }
+
+        // Game loop
+        function gameLoop() {
+            // Update the game logic
+            update();
+
+            // Render the game
+            render();
+
+            // Request the next frame
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Start the game loop
+        gameLoop();
+    </script>
+</body>
+</html>
