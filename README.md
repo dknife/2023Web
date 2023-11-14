@@ -151,6 +151,7 @@
 
 [Lab09-06 반복문 for, while](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/06_JavaScript_repeat.html)
 
+[2D 게임 환경 시작](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/07_jsGameEnv.html)
 
 ### 과제 제출 공지
 
