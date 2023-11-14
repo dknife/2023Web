@@ -137,9 +137,19 @@
 
 #### 실습 9:  JavaScript 연습
 
-[Lab09-01 자바스크립트 기초 - 폼과 결합](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/01_JavaScriptBasics.html)
+[Lab09-01a 자바스크립트 기초 - 폼과 결합](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/01_JavaScriptBasics.html)
 
-[Lab09-01 자바스크립트 기초 - 폼과 결합 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/01_JavaScriptBasics_2.html)
+[Lab09-01b 자바스크립트 기초 - 폼과 결합 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/01_JavaScriptBasics_2.html)
+
+[Lab09-02 연산자 활용](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/02_JavaScriptOperations.html)
+
+[Lab09-03 함수의 활용](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/03_JavaScriptFunctions.html)
+
+[Lab09-04 이벤트 처리 함수](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/04_JavaScriptEventHandling.html)
+
+[Lab09-05 조건 분기 if](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/05_JavaScript_If.html)
+
+[Lab09-06 반복문 for, while](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/06_JavaScript_repeat.html)
 
 
 ### 과제 제출 공지
