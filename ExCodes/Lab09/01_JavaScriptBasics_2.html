@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            .inDocumentDisplay {border: 1px; background-color: aqua;}
+        </style>
+    </head>
+    <body>
+        <script>
+            alert('자바스크립트를 공부합니다.');
+        </script>
+
+        <h1>1. alert 함수 연습</h1>
+        <form>
+            alert으로 출력할 메시지: <input type="text" id="alertMsg">
+            <br>
+            <button type="button" id="alertBtn">alert에 띄우기</button>
+        </form>
+
+        <script>
+            // alertBtn을 눌렀을 때 일이 벌어지게 한다
+            // 1. alertBtn 객체 얻기
+            myButton = document.getElementById("alertBtn");
+            
+            // 함수를 정의한다. - 함수: 언제든지 재사용할 수 있는 코드의 덩어리 (code block)
+            function printHello() {
+                alertInputElement = document.getElementById('alertMsg');
+                alert(alertInputElement.value);
+            }
+            // 버튼이 가진 메소드 중의 하나인 addEventListener 사용 
+            myButton.addEventListener('click', printHello);
+        </script>
+        
+        <h1>2. 특정한 영역에 출력하기</h1>
+        <form>
+            화면내에 출력할 메시지: <input type='text' id='inDocumentMsg'>
+            <br>
+            <button type="button" id="inDocumentMsgBtn">화면내에 출력</button>
+        </form>
+        <div id='inDocumentDisplay'>여기에 출력</div>
+
+        <script>
+            inDocDisplayElement = document.getElementById('inDocumentDisplay');
+            document.getElementById('inDocumentMsgBtn').addEventListener(
+                'click',
+                function() {
+                    inDocDisplayElement.innerHTML = 
+                        document.getElementById('inDocumentMsg').value;                     
+                }
+            );
+        </script>
+    </body>
+</html>
