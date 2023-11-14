@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>1. 반복문 - for</h2>
+        <form>
+            <button type="button" id="greetingBtn">인사하기 - Greetings</button>
+        </form>
+        <div id="greetingArea"></div>
+        <script>
+            function greeting () {
+                iteration = parseInt(prompt('몇 번이나 반복할까?'));
+                document.write(iteration)
+            }            
+            document.getElementById('greetingBtn').addEventListener('click', greeting);
+        </script> 
+    </body>
+</html>
