@@ -135,6 +135,11 @@
 
 [Lab08-04 폼과 자바스크립트](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab07/FormsScripts/04_FormAndScript.html)
 
+#### 실습 9:  JavaScript 연습
+
+[Lab09-01 자바스크립트 기초 - 폼과 결합](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/01_JavaScriptBasics.html)
+
+[Lab09-01 자바스크립트 기초 - 폼과 결합 2](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab09/01_JavaScriptBasics_2.html)
 
 
 ### 과제 제출 공지
