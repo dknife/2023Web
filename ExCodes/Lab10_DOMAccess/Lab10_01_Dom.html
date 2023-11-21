@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script>
+            function button_append() {
+                // 버튼 생성과 달기                
+                myBtn = document.createElement("button");
+                myBtn.innerText = document.getElementById('inputText').value;
+                btnArea = document.getElementById('buttonArea');
+                btnArea.appendChild(myBtn);
+                myBtn.onclick = disappear;
+            }
+
+            function disappear(event) {
+                btn = event.target
+                btnArea = document.getElementById('buttonArea');
+                btnArea.removeChild(btn)
+            }
+        </script>
+
+    </head>
+    <body>
+        <h3>DOM 생성과 삭제</h3>
+        
+
+        생성된 버튼을 누르면 삭제됩니다.<br>
+
+        <input type="text" id="inputText"><button onclick="button_append();">버튼 생성</button>
+        <div id="buttonArea" style="border:solid; height:300px;"></div>
+
+    </body>
+</html>
