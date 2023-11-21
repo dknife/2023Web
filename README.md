@@ -167,7 +167,7 @@
 
 #### 실습 11: 게임 프로젝트
 
-[Lab11-01 캔버스]()
+[Lab11-01 캔버스](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab11_GameProject/Lab11_01_Canvas.html)
 
 
 ### 과제 제출 공지
