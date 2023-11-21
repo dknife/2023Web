@@ -1,0 +1,67 @@
+<body>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+  <script>
+    const canvas = document.getElementById("gameCanvas");
+    const ctx = canvas.getContext("2d");
+
+    let player = {
+      x: 50,
+      y: canvas.height / 2,
+      width: 50,
+      height: 50,
+      color: "#00F"
+    };
+
+    let bullets = [];
+
+    function drawPlayer() {
+      ctx.fillStyle = player.color;
+      ctx.fillRect(player.x, player.y, player.width, player.height);
+    }
+
+    function drawBullets() {
+      ctx.fillStyle = "#F00";
+      for (let bullet of bullets) {
+        ctx.fillRect(bullet.x, bullet.y, 10, 5);
+      }
+    }
+
+    function updateBullets() {
+      for (let bullet of bullets) {
+        bullet.x += 5;
+
+        // Check if bullet hits the right edge of the canvas
+        if (bullet.x > canvas.width) {
+          bullets.splice(bullets.indexOf(bullet), 1);
+        }
+      }
+    }
+
+    function gameLoop() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawPlayer();
+      drawBullets();
+      updateBullets();
+      requestAnimationFrame(gameLoop);
+    }
+
+    function shoot() {
+      bullets.push({ x: player.x + player.width, y: player.y + player.height / 2 });
+    }
+
+    window.addEventListener("keydown", function (event) {
+      if (event.code == "Space") {
+        shoot();
+      }
+      if (event.code == "ArrowUp") {
+        player.y -= 5
+      }
+      if (event.code == "ArrowDown") {
+        player.y += 5
+      }
+    });
+
+    gameLoop();
+  </script>
+</body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> DOM 생성 및 삭제 예제 </title> 
+    <script type="text/javascript">
+        function button_append() { 
+            btn = document.createElement("button");
+            btn.innerText =  document.getElementById("button_name").value;
+            btn.onclick =  remove_self;
+            document.getElementById("button_area").appendChild(btn);
+        }
+
+        function delete_first() { 
+            first_child = document.getElementById("button_area").firstChild;
+            if (first_child) {
+                document.getElementById("button_area").removeChild(first_child);
+            }
+        }
+
+        function remove_self(event) {
+            btn = event.target;
+            document.getElementById("button_area").removeChild(btn);
+        }
+    </script>
+</head>
+<body>
+    <h3> DOM 생성 및 삭제 예제 </h3>
+    생성된 버튼 클릭 시 삭제됩니다.
+    <br/>
+    <input id="button_name" type="text"><button onclick="button_append();"> 버튼 요소 생성 </button>
+    <button onclick="delete_first();"> firstChild 요소 삭제 </button>
+    <div id="button_area" style="border: solid; height: 300px;"></div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shooting Game with Enemies</title>
+  <style>
+    canvas {
+      border: 1px solid #000;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+  <script>
+    const canvas = document.getElementById("gameCanvas");
+    const ctx = canvas.getContext("2d");
+
+    let player = {
+      x: 50,
+      y: canvas.height / 2,
+      width: 50,
+      height: 50,
+      color: "#00F"
+    };
+
+    let bullets = [];
+    let enemies = [];
+
+    function drawPlayer() {
+      ctx.fillStyle = player.color;
+      ctx.fillRect(player.x, player.y, player.width, player.height);
+    }
+
+    function drawBullets() {
+      ctx.fillStyle = "#F00";
+      for (let bullet of bullets) {
+        ctx.fillRect(bullet.x, bullet.y, 10, 5);
+      }
+    }
+
+    function drawEnemies() {
+      ctx.fillStyle = "#0F0";
+      for (let enemy of enemies) {
+        ctx.fillRect(enemy.x, enemy.y, 30, 30);
+      }
+    }
+
+    function updateBullets() {
+      for (let bullet of bullets) {
+        bullet.x += 5;
+
+        // Check if bullet hits the right edge of the canvas
+        if (bullet.x > canvas.width) {
+          bullets.splice(bullets.indexOf(bullet), 1);
+        }
+
+        // Check for collision with enemies
+        for (let enemy of enemies) {
+          if (
+            bullet.x < enemy.x + 30 &&
+            bullet.x + 10 > enemy.x &&
+            bullet.y < enemy.y + 30 &&
+            bullet.y + 5 > enemy.y
+          ) {
+            // Remove both bullet and enemy on collision
+            bullets.splice(bullets.indexOf(bullet), 1);
+            enemies.splice(enemies.indexOf(enemy), 1);
+          }
+        }
+      }
+    }
+
+    function updateEnemies() {
+      for (let enemy of enemies) {
+        enemy.x -= 2;
+
+        // Check if enemy reaches the player
+        if (enemy.x < player.x + player.width && enemy.y + 30 > player.y && enemy.y < player.y + player.height) {
+          // Game over logic (you can customize this further)
+          alert("Game Over!");
+          resetGame();
+        }
+      }
+    }
+
+    function resetGame() {
+      bullets = [];
+      enemies = [];
+      player.y = canvas.height / 2;
+    }
+
+    function gameLoop() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawPlayer();
+      drawBullets();
+      drawEnemies();
+      updateBullets();
+      updateEnemies();
+      requestAnimationFrame(gameLoop);
+    }
+
+    function shoot() {
+      bullets.push({ x: player.x + player.width, y: player.y + player.height / 2 });
+    }
+
+    // Add an enemy every 2 seconds
+    setInterval(() => {
+      enemies.push({ x: canvas.width, y: Math.random() * (canvas.height - 30) });
+    }, 2000);
+
+    window.addEventListener("keydown", function (event) {
+      if (event.code === "Space") {
+        shoot();
+      }
+    });
+
+    gameLoop();
+  </script>
+</body>
+</html>
