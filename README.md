@@ -169,7 +169,7 @@
 
 [Lab11-01 캔버스](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab11_GameProject/Lab11_01_Canvas.html)
 
-[Lab11-02 GameLoop]()
+[Lab11-02 GameLoop](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab11_GameProject/Lab11_02_GameLoop.html)
 
 [Lab11-03 Pong](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab11_GameProject/Lab11_03_GameInteraction.html)
 
