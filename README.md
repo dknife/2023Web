@@ -179,6 +179,15 @@
 
 [Lab11-05 적 생성](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab11_GameProject/Lab11_05_ShootingEnemies.html)
 
+
+#### 실습 12: 드래그&드롭
+
+[Lab12-01 드래그 이벤트](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab10_APIs/Lab1001_drag.html)
+
+[Lab12-01 드래그 이벤트 + 드롭 영역](https://github.com/dknife/2023Web/blob/main/ExCodes/Lab10_APIs/Lab1002_dragdrop.html)
+
+[Lab12-01 드래그 + 드롭 이벤트]()
+
 ### 과제 제출 공지
 
 [과제 1](https://github.com/dknife/2023Web/wiki/2023_Web_Assignment_1)
