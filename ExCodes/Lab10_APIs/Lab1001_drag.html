@@ -1,0 +1,29 @@
+
+<div id="fruits">
+    <img src="./apple.jpg" id="apple" height="300px" draggable="true">
+    <img src="./mango.jpg" id="mango" height="300px" draggable="true">
+    <img src="./dragonfruit.jpg" id="dragonfruit" height="300px" draggable="false">
+</div>
+
+<div id="message">
+
+</div>
+
+<script>
+    messageDisplay = document.getElementById("message")
+    messageDisplay.innerHTML = "Drag State"
+
+    dragItems = document.getElementById("fruits")
+    dragItems.ondragstart = function(e) {
+        dragItemID = e.target.id
+        messageDisplay.innerHTML = dragItemID + "의 드래그가 시작되었습니다."
+    }
+    dragItems.ondrag = function(e) {
+        messageDisplay.innerHTML = messageDisplay.innerHTML + "."
+    }
+    dragItems.ondragend = function(e) {
+        dragItemID = e.target.id
+        messageDisplay.innerHTML = dragItemID + "의 드래그가 종료되었습니다."
+    }
+
+</script>
