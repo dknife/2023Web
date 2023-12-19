@@ -204,7 +204,7 @@
 
 ### 기말고사 자료
 
-[실기평가용 기본 데이터]()
+[실기평가용 기본 데이터](https://dknife.github.io/2023WebFinal.html)
 
-[실기평가용 기본 페이지 구성]()
+[실기평가용 기본 페이지 구성](https://github.com/dknife/2023Web/raw/main/ExCodes/FinalExam/2023WebFinal_BasicCode.zip)
 
