@@ -202,3 +202,9 @@
 
 [중간고사](https://github.com/dknife/2023Web/wiki/MidTerm_WP2023_Prac)
 
+### 기말고사 자료
+
+[실기평가용 기본 데이터]()
+
+[실기평가용 기본 페이지 구성]()
+
